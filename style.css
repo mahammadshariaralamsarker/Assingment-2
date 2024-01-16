@@ -103,18 +103,22 @@
 .tours{
   width: 80%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+  display: flex;
 }
 .tours-content{
-  width: 100%;
+  padding: 20px;
+  width: 50%;
 }
-.tours h1, p ,li{
-  padding-top: 20px;
+.tours-content p,h1,li{
+  padding-bottom: 20px;
 }
+.tours-img{
+  width: 50%;
+}
+
 .tours-img img{
-  min-height: 50px;
-  display: block;
+  width: 100%;
+  height: 460px;
 }
 /* destination */
 .destination{
@@ -343,9 +347,9 @@ background: rgba(19, 19, 24, 0.05);
   background-color: #FF5400;
   text-align: center;
   position: absolute;
-  transform: rotate(-19.628deg);
-  top: 70%;
-  left: 72%;
+  transform: rotate(-30deg);
+  top: 60%;
+  left: 45%;
   border-radius: 10px;
 }
 .newslatter-content-input button{
