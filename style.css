@@ -7,7 +7,6 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
-
 .font{
   color: #FF5400;
   font-weight: 600;
@@ -48,6 +47,7 @@
   text-align: center;
   align-items: center;
   padding-top: 80px;
+  padding-bottom: 90px;
   /* min-height: 300px; */
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 0%),
@@ -63,11 +63,13 @@
   font-family: Mulish;
   font-weight: 800;
   padding-bottom: 20px;
+  font-size: 2rem;
 }
 .banner-content p {
   color: #fff;
   font-family: Mulish;
   font-size: 1rem;
+  padding-bottom: 40px;
 }
 .input {
   margin: 0px auto;
@@ -309,7 +311,20 @@ padding: 20px;
 .deals-container-content-logo i{
   color: #FF5400;
 }
+/* Myself content */
 /* Newslatter */
+.myself-content{
+  width: 80%;
+  margin: 20px auto;
+  min-height: 330px;
+  display: flex;
+  gap: 10px;
+}
+.myself-content-description{
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
 .newslatter{
   width: 80%;
   margin: 10px auto;
@@ -348,9 +363,21 @@ background: rgba(19, 19, 24, 0.05);
   text-align: center;
   position: absolute;
   transform: rotate(-30deg);
-  top: 60%;
-  left: 45%;
+  top: 50%;
+  left: 60%;
   border-radius: 10px;
+}
+.newslatter-img h3{
+  color: #FFF;
+font-family: Mulish;
+font-size: 1.25rem;
+font-weight: 400;
+}
+.newslatter-img h1{
+  color: #FFF;
+font-family: Mulish;
+font-size: 2rem;
+font-weight: 800;
 }
 .newslatter-content-input button{
   align-items: center;

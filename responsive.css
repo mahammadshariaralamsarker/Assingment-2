@@ -3,6 +3,12 @@
         display: none;
         <i class="fa-solid fa-bars"></i>
     }
+    .banner{
+        padding-bottom: 20px;
+    }
+    .banner-content p{
+        padding-bottom: 20px;
+    }
     .input {
         margin: 0 auto;
         gap: 20px;
@@ -71,8 +77,15 @@
     background: url(image/newslatter.png), lightgray 50% / cover no-repeat;
   }
 .newslatter-img {
-    top: 70%;
-    left: 47%;
+    top: 50%;
+    left: 30%;
+  }
+  .myself-content{
+    flex-direction: column;
+  }
+  .myself-content-description{
+    width: 95%;
+    order: 2;
   }
     
 }
