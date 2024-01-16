@@ -17,6 +17,8 @@
     }
     .tours img , .tours-content{
         width: 100%;
+        height: 260px;
+        margin-top: 90px;
     }
     .grid-items-1,.grid-items-2,.grid-items-3{
         flex-direction: column;
@@ -25,6 +27,7 @@
     }
     .grid-items-1 img,.grid-items-2 img,.grid-items-3 img{
         width: 100%;
+        height: 200px;
     }
    .choose-container-1{
     flex-direction: column;
@@ -60,8 +63,8 @@
     background: url(image/newslatter.png), lightgray 50% / cover no-repeat;
   }
 .newslatter-img {
-    top: 77%;
-    left: 61%;
+    top: 70%;
+    left: 50%;
   }
     
 }
