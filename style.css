@@ -7,9 +7,13 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+
+.font{
+  color: #FF5400;
+  font-weight: 600;
+}
 /* nav section */
 .nav{
-  background-color: #623824;
   width: 80%;
   margin: 20px auto;
   display: flex;
@@ -24,7 +28,6 @@
 }
 .nav-container{
   width: 50%;
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -45,9 +48,9 @@
   text-align: center;
   align-items: center;
   padding-top: 80px;
-  min-height: 300px;
+  /* min-height: 300px; */
   border-radius: 16px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 0%),
   url("image/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;  
 }
@@ -58,7 +61,6 @@
 .banner-content h1 {
   color: #fff;
   font-family: Mulish;
-  font-size: 2.5rem;
   font-weight: 800;
   padding-bottom: 20px;
 }
@@ -68,12 +70,14 @@
   font-size: 1rem;
 }
 .input {
-  margin: 10px auto;
+  margin: 0px auto;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(4,1fr);
   width: 90%;
-
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 20px;
 }
 .normal {
   border-radius: 8px;
@@ -99,16 +103,19 @@
 .tours{
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.tours-content{
+  width: 100%;
 }
 .tours h1, p ,li{
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
-.tours-content,.tours img{
-  width: 50%;
+.tours-img img{
+  min-height: 50px;
+  display: block;
 }
-
 /* destination */
 .destination{
   min-height: 300px;
@@ -251,6 +258,16 @@ position: relative;
   padding: 20px;
   position: absolute;
   left: 55%;
+  width: 30%;
+  margin-top: 9%;
+  border-radius: 16px;
+background: rgba(255, 255, 255, 0.80);
+}
+.deals-container-content-2{
+  min-height: 200px;
+  padding: 20px;
+  position: absolute;
+  left: 15%;
   width: 30%;
   margin-top: 9%;
   border-radius: 16px;
