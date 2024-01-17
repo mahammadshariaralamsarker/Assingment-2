@@ -7,7 +7,7 @@
         padding-bottom: 20px;
     }
     .banner-content p{
-        padding-bottom: 20px;
+        padding-top: 0px;
     }
     .input {
         margin: 0 auto;
@@ -29,11 +29,9 @@
     }
     .tours img img {
         width: 100%;
-        height: 230px;
-        /* margin-top: 90px; */
+        height: 0px;
+        /* height: 230px; */
     }
-
-
     .grid-items-1,.grid-items-2,.grid-items-3{
         flex-direction: column;
         width: 100%;
@@ -78,7 +76,8 @@
   }
 .newslatter-img {
     top: 50%;
-    left: 30%;
+    left: 40%;
+    width: 50%;
   }
   .myself-content{
     flex-direction: column;
